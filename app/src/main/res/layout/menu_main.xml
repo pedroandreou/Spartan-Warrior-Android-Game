@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/gameLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/menubg">
+
+                <Button
+                    android:id="@+id/startButton"
+                    android:layout_width="105dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="193dp"
+                    android:layout_marginRight="193dp"
+                    android:layout_marginBottom="382dp"
+                    android:background="#0000"
+                    android:text="@string/menu_start"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/highScoreButton"
+                    android:layout_width="109dp"
+                    android:layout_height="84dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="193dp"
+                    android:layout_marginRight="193dp"
+                    android:layout_marginBottom="301dp"
+                    android:background="#0000"
+                    android:text="@string/high_score"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/exitButton"
+                    android:layout_width="109dp"
+                    android:layout_height="84dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="193dp"
+                    android:layout_marginRight="193dp"
+                    android:layout_marginBottom="225dp"
+                    android:background="#0000"
+                    android:text="@string/menu_exit"
+                    android:textSize="30sp" />
+
+        </RelativeLayout>
+
+
+</FrameLayout>
+

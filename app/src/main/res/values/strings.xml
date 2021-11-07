@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The Spartan Warrior</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mode_ready">Ready</string>
+    <string name="mode_pause">Pause</string>
+    <string name="mode_lose">Lose</string>
+    <string name="mode_win">Win</string>
+    <string name="score_text">0</string>
+    <string name="menu_start">Start</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_resume">Resume</string>
+    <string name="message_stopped">Stopped</string>
+    <string name="high_score">High Score</string>
+
+    <string name="database_connection_test">Database Connection Test</string>
+    <string name="store_data">Store Data</string>
+    <string name="read_data">Read Data</string>
+    <string name="name">Name</string>
+    <string name="set_credentials">SET YOUR CREDENTIALS</string>
+    <string name="highscore">HIGH SCORE</string>
+    <string name="user_id">User ID</string>
+    <string name="score">Score</string>
+    <string name="textShow">TextView</string>
+    <string name="status_empty">Status: Empty</string>
+    <string name="ok">Ok</string>
+
+
+</resources>

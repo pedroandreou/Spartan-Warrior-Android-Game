@@ -1,0 +1,129 @@
+[
+  {
+    "positionX": 700.0,
+    "positionY": 700.0,
+    "speed": {
+      "speedX": 200.0,
+      "speedY": 200.0
+    },
+    "health": {
+      "currentHealth": 1,
+      "maxHealth": 3
+    },
+    "imageName": "WARRIOR_RIGHT",
+    "isPlayer": true
+  },
+
+  {
+    "positionX": 300.0,
+    "positionY": 600.0,
+    "speed": {
+      "speedX": 100.0,
+      "speedY": 100.0
+    },
+    "health": {
+      "currentHealth": 1,
+      "maxHealth": 1
+    },
+    "imageName": "HAZARD",
+    "isPlayer": false
+  },
+
+  {
+    "positionX": 200.0,
+    "positionY": 500.0,
+    "speed": {
+      "speedX": 100.0,
+      "speedY": 100.0
+    },
+    "health": {
+      "currentHealth": 1,
+      "maxHealth": 1
+    },
+    "imageName": "HAZARD",
+    "isPlayer": false
+  },
+
+  {
+    "positionX": 400.0,
+    "positionY": 200.0,
+    "speed": {
+      "speedX": 100.0,
+      "speedY": 100.0
+    },
+    "health": {
+      "currentHealth": 1,
+      "maxHealth": 1
+    },
+    "imageName": "HAZARD",
+    "isPlayer": false
+  },
+
+  {
+    "positionX": 600.0,
+    "positionY": 500.0,
+    "speed": {
+      "speedX": 100.0,
+      "speedY": 100.0
+    },
+    "health": {
+      "currentHealth": 1,
+      "maxHealth": 1
+    },
+    "imageName": "HAZARD",
+    "isPlayer": false
+  },
+
+
+  {
+    "positionX": 420.0,
+    "positionY": 1420.0,
+    "imageName": "WALL"
+  },
+
+  {
+    "positionX": 420.0,
+    "positionY": 1500.0,
+    "imageName": "WALL"
+  },
+
+  {
+    "positionX": 585.0,
+    "positionY": 1420.0,
+    "imageName": "WALL"
+  },
+
+  {
+    "positionX": 270.0,
+    "positionY": 1420.0,
+    "imageName": "WALL"
+  },
+
+  {
+    "positionX": 415.0,
+    "positionY": 485.0,
+    "imageName": "DOOR_HORIZONTAL",
+    "isCollectable": false
+  },
+
+  {
+    "positionX": 500.0,
+    "positionY": 250.0,
+    "imageName": "KEY",
+    "isCollectable": true
+  },
+
+  {
+    "positionX": 300.0,
+    "positionY": 1100.0,
+    "imageName": "BLACK_SOUP",
+    "isCollectable": true
+  },
+
+  {
+    "positionX": 700.0,
+    "positionY": 1600.0,
+    "imageName": "BLACK_SOUP",
+    "isCollectable": true
+  }
+]
