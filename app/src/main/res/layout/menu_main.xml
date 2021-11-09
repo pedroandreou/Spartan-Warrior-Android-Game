@@ -10,8 +10,8 @@
 
                 <Button
                     android:id="@+id/startButton"
-                    android:layout_width="105dp"
-                    android:layout_height="80dp"
+                    android:layout_width="112dp"
+                    android:layout_height="92dp"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"

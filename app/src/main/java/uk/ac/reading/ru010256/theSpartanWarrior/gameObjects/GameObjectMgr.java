@@ -157,9 +157,4 @@ public class GameObjectMgr {
             }
         }
     }
-
-    public void clearPools(){
-        this.gameObjectPool.clear();
-        this.pawnPool.clear();
-    }
 }

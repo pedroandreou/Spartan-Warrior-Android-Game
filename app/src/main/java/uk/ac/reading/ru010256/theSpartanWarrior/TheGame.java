@@ -64,8 +64,6 @@ public class TheGame extends GameThread {
     // This is run before a new game (also after an old game)
     @Override
     public void setupBeginning() {
-
-
     }
 
     @Override
@@ -93,18 +91,18 @@ public class TheGame extends GameThread {
         }
     }
 
-    // This is run whenever the phone is touched by the user
+    //This is run whenever the phone is touched by the user
     @Override
     protected void actionOnTouch(float x, float y) {
-        // Move the Spartan Warrior
+        //Move the Spartan Warrior
 
-        // If finger touches on the left of Spartan Warrior, then Spartan Warrior goes to the left direction
+        //If finger touches on the left of Spartan Warrior, then Spartan Warrior goes to the left direction
         if (x < myPlayer.getPositionX()) {
             myPlayer.getSpeed().setSpeedX(-initialSpeed.getSpeedX());
             myPlayer.setBitmap(imageLoader.repository.get(ImageType.WARRIOR_LEFT));
         }
 
-        // If finger touches on the right of Spartan Warrior, then Spartan Warrior goes to the right direction
+        //If finger touches on the right of Spartan Warrior, then Spartan Warrior goes to the right direction
         if (x >= myPlayer.getPositionX()) {
             myPlayer.getSpeed().setSpeedX(initialSpeed.getSpeedX());
             myPlayer.setBitmap(imageLoader.repository.get(ImageType.WARRIOR_RIGHT));
@@ -133,7 +131,7 @@ public class TheGame extends GameThread {
                 // Change direction if there is collision between Pawn and GameObject
                 for (List<GameObject> gameObjectList : this.gameObjectMgr.gameObjectPool.values()) {
                     for (GameObject gameObject : gameObjectList) {
-                        if (pawn.isPlayer()) { // if Pawn is the Player => do not move diagonally
+                        if (pawn.isPlayer()) { //if Pawn is the Player => do not move diagonally
                             updateCollision(this.myPlayer, gameObject, false);
                         } else { // if the Pawn is not the Player => move diagonally
                             updateCollision(pawn, gameObject, true);
@@ -281,7 +279,6 @@ public class TheGame extends GameThread {
 
                 pawn.getSpeed().setSpeedX(pawn.getSpeed().getSpeedX() * speedOfPawn / newSpeedOfPawn);
                 pawn.getSpeed().setSpeedY(pawn.getSpeed().getSpeedY() * speedOfPawn / newSpeedOfPawn);
-
                 return true;
             }
 
@@ -394,12 +391,12 @@ public class TheGame extends GameThread {
         if ((gameObject.getType().equals(GameObjectType.DOOR_HORIZONTAL) || (gameObject.getType().equals(GameObjectType.DOOR_VERTICAL)))  && readyForNextLevel == true){
             this.mediaPlayer.release();
 
-            this.gameObjectMgr = new GameObjectMgr(this.imageLoader, super.getMContext()); // Create new gameObjectMgr to randomize and get the next level
-            this.setUpPlayer(); // Set up the player's attributes according to the next level
-
-            // Play the this is sparta sound when is ready to go to the next level
+            // Play the this is sparta music when black soup is collected
             this.mediaPlayer = MediaPlayer.create(super.getMContext(), R.raw.thisissparta);
             this.mediaPlayer.start();
+
+            this.gameObjectMgr = new GameObjectMgr(this.imageLoader, super.getMContext()); // Create new gameObjectMgr to randomize and get the next level
+            this.setUpPlayer(); // Set up the player's attributes according to the next level
 
             this.updateHealthUI(this.myPlayer.getHealth().getCurrentHealth()); // Update health UI
             doDraw(super.getCanvasRun()); // Redraw the canvas for the next level

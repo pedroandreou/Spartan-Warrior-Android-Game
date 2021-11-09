@@ -39,9 +39,6 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback, Sen
 	@Getter
 	@Setter
 	private TextView mStatusView;
-	private ImageView life1;
-	private  ImageView life2;
-	private ImageView life3;
 
 	@Setter
 	private ImageView life1;
@@ -63,7 +60,7 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback, Sen
 		//Get the holder of the screen and register interest
 		SurfaceHolder holder = getHolder();
 		holder.addCallback(this);
-
+		
 		//Set up a handler for messages from GameThread
 		mHandler = new Handler() {
 			@Override
@@ -118,21 +115,12 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback, Sen
                     switch(i) {
                         case View.VISIBLE:
                             mStatusView.setVisibility(View.VISIBLE);
-							life1.setVisibility(View.VISIBLE);
-							life2.setVisibility(View.VISIBLE);
-							life3.setVisibility(View.VISIBLE);
                             break;
                         case View.INVISIBLE:
                             mStatusView.setVisibility(View.INVISIBLE);
-							life1.setVisibility(View.INVISIBLE);
-							life2.setVisibility(View.INVISIBLE);
-							life3.setVisibility(View.INVISIBLE);
                             break;
                         case View.GONE:
                             mStatusView.setVisibility(View.GONE);
-							life1.setVisibility(View.GONE);
-							life2.setVisibility(View.GONE);
-							life3.setVisibility(View.GONE);
                             break;
                     }
 

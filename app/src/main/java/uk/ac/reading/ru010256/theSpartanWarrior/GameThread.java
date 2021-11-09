@@ -285,7 +285,6 @@ public abstract class GameThread extends Thread {
                 Bundle b = new Bundle();
                 b.putString("text", "");
                 b.putInt("viz", View.INVISIBLE);
-                b.putInt("life", View.INVISIBLE);
                 b.putBoolean("showAd", false);
                 b.putBoolean("updateHealth", false);
                 msg.setData(b);
@@ -312,7 +311,6 @@ public abstract class GameThread extends Thread {
 
                 b.putString("text", str.toString());
                 b.putInt("viz", View.VISIBLE);
-                b.putInt("life", View.VISIBLE);
 
                 msg.setData(b);
                 mHandler.sendMessage(msg);
