@@ -8,9 +8,15 @@ The main idea of my game is based on Greek mythology. The hero of my game is a S
 
 ## 🚀 Building and Running
 ### Options:
-1. Install my APK on your device by following these [instructions](https://www.lifewire.com/install-apk-on-android-4177185)
+1. Install my [APK](https://github.com/pedroandreou/Spartan-Warrior-Android-Game/tree/main/APK) on your device by following these [instructions](https://www.lifewire.com/install-apk-on-android-4177185)
 2. Run the Project to play my game in an emulator  
 3. [Re-generate the APK](https://developer.android.com/studio/run)  
 
 ## ⚠ Important
 More info about my project can be found in my [portfolio](https://pedroandreou.github.io/#contact)
+
+## Author  
+👨🏼 Petros Andreou
+
+Github: [@Petros](https://github.com/pedroandreou)  
+LinkedIn: [@Petros](https://www.linkedin.com/in/petrosandreou80/)
