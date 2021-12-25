@@ -13,7 +13,7 @@ The main idea of my game is based on Greek mythology. The hero of my game is a S
 3. [Re-generate the APK](https://developer.android.com/studio/run)  
 
 ## ⚠ Important
-More info about my project can be found in my [portfolio](https://pedroandreou.github.io/#contact)
+More info about my project can be found in my [portfolio](https://pedroandreou.github.io/#SpartanWarriorAndroidApp)
 
 ## Author  
 👨🏼 Petros Andreou
