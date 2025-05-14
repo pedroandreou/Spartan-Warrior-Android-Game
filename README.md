@@ -39,9 +39,6 @@ The game is built using robust OOP principles:
 2. Run the Project to play my game in an emulator  
 3. [Re-generate the APK](https://developer.android.com/studio/run)  
 
-## ⚠ Important
-More info about my project can be found in my [portfolio](https://pedroandreou.github.io/#SpartanWarriorAndroidApp)
-
 ## Author  
 <a href="https://www.linkedin.com/in/petrosandreou80/">
   <img align="center" src="https://img.shields.io/badge/Petros LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
